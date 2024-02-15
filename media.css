@@ -52,8 +52,12 @@
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
-	body {
+
+	/* body, */
+	html {
 		min-width: 400px;
+		/* max-width: fit-content; */
+		margin: 0;
 	}
 
 	#section_1b-k-header-flex {
