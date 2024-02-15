@@ -1,0 +1,171 @@
+@media (min-width: 768px) and (max-width: 991px) {
+	#section_2-b-k-all-flex {
+		/* background: #000; */
+		display: grid;
+		/* grid-template-columns: repeat(2, calc(50%-6.5px)); */
+		grid-template-columns: repeat(2, calc(50% - 180px));
+	}
+
+	#section_3b-k-background-img {
+		/* padding: 50px; */
+		display: flex;
+
+		.b-k-txt {
+			h1 {
+				font-size: 5vw;
+			}
+
+			h5 {
+				font-size: 3vw;
+				font-weight: 200;
+			}
+
+			p {
+				width: 50vw;
+				font-size: 1.5vw;
+				font-weight: 400;
+			}
+		}
+	}
+
+	#section_5b-k-img-with-text {
+		padding: 20px;
+
+		h1 {
+			font-size: 4vw;
+			font-weight: 700;
+		}
+
+		p {
+			width: 500px;
+			font-size: 2vw;
+		}
+	}
+
+	#section_5b-ktext .section_5b-k-txt-right {
+		padding: 20px;
+
+		P {
+			width: 400px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		min-width: 400px;
+	}
+
+	#section_1b-k-header-flex {
+		padding: 0;
+		width: 100vw;
+		/* height: 50vh; */
+		display: block;
+
+		.img-2 {
+			transform: translate(24vw, -38vw);
+			width: 58vw;
+		}
+	}
+
+	#section_1b-k-header-flex .section-1b-k-txt {
+		padding: 150px 50px;
+
+		h3 {
+			font-size: 9vw;
+			line-height: 1;
+		}
+
+		h5 {
+			font-size: 2vw;
+		}
+	}
+
+	#section_1b-k-header-flex .section-1b-k-txt {
+		width: 100vw;
+		/* height: 90vh; */
+	}
+
+	#section_1b-k-header-flex .section-1b-k-img .img-1 {
+		width: 100vw;
+	}
+
+	#section_2-b-k-all-flex {
+		display: block;
+		text-align: center;
+	}
+
+	#section_3b-k-background-img .bg-imgaes {
+		display: block;
+		padding: 0;
+
+		img {
+			width: 100vw;
+		}
+	}
+
+	#section_3b-k-background-img .bg-imgaes .b-k-txt {
+		padding: 20px;
+		width: 50vw;
+
+		h5 {
+			width: 80vw;
+		}
+
+		P {
+			width: 80vw;
+			/* width: 500px; */
+			font-size: 2.5vw;
+		}
+	}
+
+	#section_5b-k-img-with-text {
+
+		/* padding: 10; */
+		h1 {
+			font-size: 5vw;
+		}
+
+		h5 {
+			font-size: 3vw;
+		}
+
+		p {
+			font-size: 2vw;
+			width: 70vw;
+		}
+	}
+
+	#section_5b-ktext {
+		display: block;
+
+		img {
+			width: 80vw;
+			padding-top: 20px;
+			box-shadow: none;
+		}
+	}
+
+	#section_5b-ktext .section_5b-k-txt-right p {
+		width: 70vw;
+		font-size: 3.5vw;
+		font-weight: 500;
+	}
+
+	#setion_6b-k-img-with-text .images-1 {
+		.helmate {
+			width: 40vw;
+		}
+	}
+
+	#setion_6b-k-img-with-text .imges {
+		.txt-img img {
+			width: 20vw;
+		}
+	}
+
+	#section_7b-k-footer-from-section h1 {
+		width: 90vw;
+		font-size: 3.8vw;
+	}
+}
