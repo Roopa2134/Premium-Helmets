@@ -51,7 +51,7 @@
 	}
 }
 
-@media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
 	body {
 		min-width: 400px;
 	}
@@ -120,8 +120,6 @@
 	}
 
 	#section_5b-k-img-with-text {
-
-		/* padding: 10; */
 		h1 {
 			font-size: 5vw;
 		}
@@ -167,5 +165,11 @@
 	#section_7b-k-footer-from-section h1 {
 		width: 90vw;
 		font-size: 3.8vw;
+	}
+
+	#section_7b-k-footer-from-section {
+		form {
+			width: auto;
+		}
 	}
 }
